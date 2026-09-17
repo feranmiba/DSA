@@ -57,4 +57,12 @@ console.log(myStack.pop());
 console.log(myStack.pop());
 
 
+/*-------------------------------------------------------Result--------------------------------------------------------------- */
 
+// true
+// [ 'amiola', 'demilade', 'mary' ]
+// mary
+// [ 'amiola', 'demilade' ]
+// demilade
+// amiola
+// stack is empty
