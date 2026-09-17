@@ -152,6 +152,7 @@ function deleteValue(value: string) {
 }
 
 
+
 console.log(addValue("amiola"))
 console.log(addValue("demilade"));
 console.log(addValue("mary"));
@@ -159,12 +160,43 @@ console.log(addValue("demilade"));
 console.log(addValue("amiola"))
 console.log(addValue("demilade"));
 console.log(addValue("mary"));
+
+
+    
 console.log(addValue("demilade"));
 
+
     let dataStored = myHashTableAsArray;
+
+    console.log(/*Hash Table Result */)
+    console.log(dataStored)
+
+
 
 
 
     console.log(bucketSize)
 
 // Amiola_dev
+
+
+
+
+/*-------------------------------------------------------Result--------------------------------------------------------------- */
+// { isSaved: true, key: 7 }
+// { isSaved: true, key: 1 }
+// { isSaved: true, key: 1 }
+// { isSaved: true, key: 1 }
+// { isSaved: true, key: 7 }
+// { isSaved: true, key: 1 }
+// { isSaved: true, key: 1 }
+// Rehashing done. New bucket size: 20 [
+//   <1 empty item>,
+//   {
+//     values: [ 'demilade', 'mary', 'demilade', 'demilade', 'mary', 'demilade' ]
+//   },
+//   <5 empty items>,
+//   { values: [ 'amiola', 'amiola' ] }
+// ]
+// { isSaved: true, key: 1 }
+// 20

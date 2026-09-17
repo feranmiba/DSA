@@ -1,6 +1,5 @@
 //Hello guys another series of DS and This is a stack implementation in TypeScript. It uses a LASt in First out (LIFO) basis. This is a linear data structure
 
-
 class Stack {
     stack:string[] = []
 
@@ -56,3 +55,6 @@ console.log(myStack.pop());
 
 // 7. Pop empty stack
 console.log(myStack.pop());
+
+
+
