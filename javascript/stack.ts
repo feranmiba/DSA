@@ -19,6 +19,13 @@ class Stack {
         }
     }
 
+    peek() {
+        if(this.isEmpty()) {
+            return "stack is empty"
+        }
+        return this.stack[this.stack.length - 1]
+    }
+
     pop() {
         if(this.isEmpty()) {
             return "stack is empty"
@@ -47,6 +54,8 @@ console.log(myStack.stack);
 // 4. Pop
 console.log(myStack.pop());
 console.log(myStack.stack);
+
+console.log(myStack.peek(), "this is the peak ")
 
 
 // 6. Remove everything
